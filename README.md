@@ -1,156 +1,152 @@
 
-## 🎬 Movie Industry Analytics: Power BI Dashboard
 
-### 📊 Project Overview
+## Movie Industry Analytics: Power BI Dashboard
 
-This project, **Movie Industry Analytics**, explores the intersection of **financial performance, audience preferences, and genre trends** in the global movie industry using **Power BI**.
-The analysis provides a 360° view of how **budgets, revenues, ratings, and genres** shape the cinematic landscape.
+### Project Overview
 
-Developed as part of a data-driven consulting case for *BigScreen Insights*, this end-to-end dashboard transforms raw data into actionable business intelligence  uncovering insights on **ROI, audience ratings, and genre performance** that can guide production and marketing decisions.
+This project, **Movie Industry Analytics**, explores the connection between **financial performance, audience preferences, and genre trends** in the global movie industry using **Power BI**.
+It provides a complete view of how **budgets, revenues, ratings, and genres** shape business outcomes.
+
+Developed as part of a data consulting case for *BigScreen Insights*, this dashboard converts raw data into actionable intelligence, uncovering insights about **ROI, audience ratings, and genre performance** that can guide production and marketing teams.
 
 ---
 
-### 🎯 Objectives
+### Objectives
 
-* Combine production and revenue datasets to analyze financial performance and audience ratings.
-* Visualize trends in **budget, revenue, and ROI** across years, companies, and filming locations.
+* Combine production and revenue datasets for a unified analysis.
+* Track trends in **budget, revenue, and ROI** across years, companies, and locations.
 * Evaluate **director performance**, **genre profitability**, and **language influence** on ratings.
-* Forecast **genre popularity** and highlight key **audience behavior patterns**.
-
----
-### 🚀 Project Highlights
-
-✅ Built a **3-page interactive Power BI dashboard**
-✅ Delivered **real-time insights** on financial and audience trends
-✅ Applied **DAX calculations**, **data modeling**, and **visual storytelling**
-✅ Enabled **data-driven decision-making** for movie production strategies
+* Forecast **genre popularity** and identify audience behavior patterns.
 
 ---
 
-### 🧩 Data Sources
+### Project Highlights
 
-1. **Movie Production Details Dataset** – contains production information (budget, genre, company, director, etc.)
-2. **Movie Revenue and Ratings Dataset** – covers worldwide and domestic revenues, IMDb, and Rotten Tomatoes scores.
-
-Both datasets were integrated using the `Movie ID` key to ensure consistent and reliable data modeling.
+* Designed a **3-page interactive Power BI dashboard**.
+* Delivered **real-time insights** on financial and audience data.
+* Applied **DAX calculations**, **data modeling**, and clear visual storytelling.
+* Supported **data-driven decision-making** for movie production strategy.
 
 ---
 
-### 🛠️ Tools & Techniques
+### Data Sources
+
+1. **Movie Production Details Dataset** – contains data such as budget, genre, company, and director.
+2. **Movie Revenue and Ratings Dataset** – includes worldwide and domestic revenue, IMDb scores, and Rotten Tomatoes ratings.
+
+Datasets were connected using the `Movie ID` key to ensure reliable data modeling.
+
+---
+
+### Tools & Techniques
 
 | Category          | Tools / Methods                                                                            |
 | ----------------- | ------------------------------------------------------------------------------------------ |
 | **Data Cleaning** | Power Query Editor                                                                         |
-| **Data Modeling** | Star schema, relationships using Movie ID                                                  |
+| **Data Modeling** | Star schema with Movie ID relationships                                                    |
 | **Analytics**     | DAX measures for ROI, profitability, and trend analysis                                    |
-| **Visualization** | Power BI interactive dashboards                                                            |
+| **Visualization** | Interactive dashboards in Power BI                                                         |
 | **Forecasting**   | Time series forecasting of genre trends                                                    |
 | **KPIs**          | Total Budget, Worldwide Revenue, Domestic Revenue, ROI, IMDb Rating, Rotten Tomatoes Score |
 
 ---
 
-### 📈 Dashboards Overview
+### Dashboards Overview
 
-#### **1️⃣ Financial Analysis Dashboard**
+#### 1. Financial Analysis Dashboard
 
 * Total Budget: **$104.66B** | Worldwide Revenue: **$251.37B** | ROI: **140.18%**
-* Director-wise and company-wise revenue & profit comparison.
-* Genre-based profitability insights and filming location trends.
-* Yearly and monthly budget-revenue visualization.
+* Director-wise and company-wise revenue and profit comparison.
+* Genre-based profitability and filming location trends.
+* Yearly and monthly budget–revenue breakdown.
 
-🖼️ *Preview:*
-<img width="1439" height="808" alt="image" src="https://github.com/user-attachments/assets/9042f35f-396d-457e-a9b2-004cde5692ad" />
+<img width="1439" height="808" alt="image" src="https://github.com/user-attachments/assets/3b67fe52-09b7-4c5e-b008-45bdb8642a93" />
+
 
 ---
 
-#### **2️⃣ Audience Ratings Dashboard**
+#### 2. Audience Ratings Dashboard
 
 * Total Movies: **1000** | IMDb Avg: **5.45** | Rotten Tomatoes Avg: **54%**
-* Language-wise IMDb & Rotten Tomatoes comparison.
-* Monthly analysis of open weekend gross vs. number of theaters.
-* MPAA and production company impact on ratings and profitability.
-
-🖼️ *Preview:*
-<img width="1434" height="810" alt="image" src="https://github.com/user-attachments/assets/c841f96b-4383-4e34-b8cf-02c9bf8351b4" />
-
+* Language-wise comparison of IMDb and Rotten Tomatoes scores.
+* Analysis of opening weekend gross vs. theater count.
+* Impact of MPAA ratings and production companies on audience scores.
+<img width="1434" height="810" alt="image" src="https://github.com/user-attachments/assets/c9e26e2c-c963-4ed6-af0f-89474ff386f0" />
 
 ---
 
-#### **3️⃣ Genre Ratings Dashboard**
+#### 3. Genre Ratings Dashboard
 
-* Director’s impact on genre-specific revenue.
-* IMDB rating trends and genre popularity over time.
-* Categorization of genres by revenue and count.
-* Identification of trendsetting genres and shifts in audience preference.
-
-🖼️ *Preview:*
-<img width="1434" height="804" alt="image" src="https://github.com/user-attachments/assets/9d3932d6-e401-437a-9133-cc1b4b81ee4f" />
-
+* Director influence on genre-specific revenue.
+* Genre-wise IMDb rating trends over time.
+* Popular genre categorization by revenue and movie count.
+* Identification of trendsetting genres and audience preference shifts.
+<img width="1434" height="804" alt="image" src="https://github.com/user-attachments/assets/8be8a4b0-9812-4fa4-a487-0f1bcc33267f" />
 
 ---
 
-### 🧮 Key DAX Measures
+### Key DAX Measures
 
 * **Profit** = `Worldwide Gross - Budget`
 * **ROI (%)** = `(Worldwide Gross - Budget) / Budget * 100`
 * **Budget Category** =
 
-  * *Indie* (<$20M)
-  * *Mid-Range* ($20M–$100M)
-  * *Blockbuster* (>$100M)
-* **Genre Popularity Index** – Based on number of releases & average revenue.
-* **IMDb & Rotten Tomatoes Aggregates** – For multi-language comparison.
+  * Indie (< $20M)
+  * Mid-Range ($20M–$100M)
+  * Blockbuster (> $100M)
+* **Genre Popularity Index** – based on number of releases and average revenue.
+* **IMDb & Rotten Tomatoes Aggregates** – for comparing multiple languages.
 
 ---
 
-### 💡 Key Insights
+### Key Insights
 
-* **Sci-Fi and Action** genres dominate profitability and ROI metrics.
-* **Mandarin and Japanese** films show higher Rotten Tomatoes ratings than English-language films.
-* **Canada and USA** lead in filming locations with higher worldwide profits.
-* **Blockbusters** contribute to **over 40%** of total industry profits.
-* **Directors Morgan Wilson and Riley Brown** consistently deliver top-grossing films.
-
----
-
-### 📆 Time Forecast & Trends
-
-Using Power BI’s forecasting tools, **Action/Thriller** genres are predicted to remain the most popular in the coming years, followed by **Drama/Comedy** blends.
+* **Sci-Fi and Action** genres lead in ROI and profitability.
+* **Mandarin and Japanese** films show higher critic ratings than English films.
+* **USA and Canada** dominate in profitable filming locations.
+* **Blockbusters** generate **over 40%** of total profits.
+* **Directors Morgan Wilson and Riley Brown** deliver the most consistent box-office success.
 
 ---
 
+### Forecast & Trends
 
-### 📚 Tech Stack
-
-* **Power BI**
-* **Power Query**
-* **DAX**
-* **Excel**
-* **Data Modeling (Star Schema)**
+Using Power BI’s forecasting tools, **Action/Thriller** genres are projected to stay dominant, while **Drama/Comedy** blends continue to grow in popularity.
 
 ---
 
-### 📦 Project Files
+### Tech Stack
 
-| File                             | Description                                 |
-| -------------------------------- | ------------------------------------------- |
-| `Movie_Production_Details.xlsx`  | Dataset containing movie production info    |
-| `Movie_Revenue_and_Ratings.xlsx` | Dataset containing revenue and ratings info |
-| `.pbix` File                     | Power BI project file with all dashboards   |
+* Power BI
+* Power Query
+* DAX
+* Excel
+* Data Modeling (Star Schema)
 
 ---
 
-### 🌟 How to Use
+### Project Files
+
+| File                             | Description                              |
+| -------------------------------- | ---------------------------------------- |
+| `Movie_Production_Details.xlsx`  | Dataset containing movie production data |
+| `Movie_Revenue_and_Ratings.xlsx` | Dataset containing revenue and ratings   |
+| `.pbix` file                     | Power BI project file with dashboards    |
+
+---
+
+### How to Use
 
 1. Download the `.pbix` file and both datasets.
 2. Open in Power BI Desktop.
-3. Explore insights via interactive filters (Genre, Year, Language, etc.).
+3. Explore insights using filters such as Genre, Year, and Language.
 
 ---
 
-### 🏁 Conclusion
+### Conclusion
 
-This Power BI project illustrates how **data visualization** can turn raw movie data into strategic insights.
-From analyzing profitability to predicting future genre trends  it’s a complete analytical story that bridges **creativity and data intelligence**. 🎥📊
+This project demonstrates how **Power BI** can turn raw movie data into meaningful business insights.
+It highlights the power of visualization in connecting **financial analytics**, **audience preferences**, and **creative strategy** — bridging storytelling with data intelligence.
 
 ---
+
