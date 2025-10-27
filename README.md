@@ -71,7 +71,8 @@ Datasets were connected using the `Movie ID` key to ensure reliable data modelin
 * Language-wise comparison of IMDb and Rotten Tomatoes scores.
 * Analysis of opening weekend gross vs. theater count.
 * Impact of MPAA ratings and production companies on audience scores.
-<img width="1434" height="810" alt="image" src="https://github.com/user-attachments/assets/c9e26e2c-c963-4ed6-af0f-89474ff386f0" />
+<img width="1434" height="810" alt="image" src="https://github.com/user-attachments/assets/132eab52-0f62-4af6-995b-b4d86b1b1436" />
+
 
 ---
 
@@ -81,7 +82,9 @@ Datasets were connected using the `Movie ID` key to ensure reliable data modelin
 * Genre-wise IMDb rating trends over time.
 * Popular genre categorization by revenue and movie count.
 * Identification of trendsetting genres and audience preference shifts.
-<img width="1434" height="804" alt="image" src="https://github.com/user-attachments/assets/8be8a4b0-9812-4fa4-a487-0f1bcc33267f" />
+
+<img width="1434" height="804" alt="image" src="https://github.com/user-attachments/assets/a6cb2e82-0dd2-4c59-9be1-c75632cfc72a" />
+
 
 ---
 
